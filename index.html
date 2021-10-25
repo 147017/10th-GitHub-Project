@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La Toile de Léonard de Vinci</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body class="Background">
+        <center>
+            <h1>La Toile de Léonard de Vinci</h1>
+            <input id="color" type="color">
+            <button onclick="clear()">Clear</button>
+            <input id="circle" type="radio" name="Group"><label for="circle">Circle</label>
+            <input id="square" type="radio" name="Group"><label for="square">Square</label>
+            <input id="draw" type="radio" name="Group"><label for="draw">Draw freehand</label>
+            <input id="width" type="range"><label for="width">Line width</label>
+            <br>
+            <canvas id="easel" width="800" height="600"></canvas>
+        </center>
+    </body>
+</html>
